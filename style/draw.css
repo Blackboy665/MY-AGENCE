@@ -57,5 +57,54 @@ align-items: center;
     border: 0px;
 }
 
+.service-container{
+    height: 100vh;
+    background-image: url('../image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+display: flex;
+align-items: center;
+padding: 20px;
+}
+.description{
+    color: white;
+}
+.logo{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    
+   text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+   
+}
+.icon{
+    width: 70px;
+    align-items: center;
+}
+
+.wrt{
+    width: 50%;
+    padding: 5px;
+    font-size: 30px;
+}
+.v{
+    margin-top: 20px;
+}
+.a{
+    border-radius: 100px;
+    
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+padding-left: 2px;
+}
 
 
