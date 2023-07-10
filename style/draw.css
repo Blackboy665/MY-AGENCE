@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    margin-bottom: 100px;
+    padding: 20px;
+
+
+}
+.item{
+    display: flex;
+    text-decoration:none;
+    text-align: center;
+    font-size: 30px;
+    list-style: none;
+    gap: 15px;
+  font-style: italic;
+
+
+}
+
+}
+
+
