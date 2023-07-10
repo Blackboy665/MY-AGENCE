@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     background: gray;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     padding: 20px;
 
 
@@ -22,7 +22,40 @@
 
 
 }
+.banner{
+    height: 100vh;
+background-image: url('../image/background.jpg'),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+background-blend-mode: overlay;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+display: flex;
+align-items: center;
 
 }
+.banner-info{
+    color: white;
+    font-size: 30px;
+}
+.paragraph{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.btn{
+    margin: 0px;
+    background-color: red;
+    border: 0px;
+  padding: 25px;
+  border-radius: 5px;
+  
+}
+.button{
+    padding: 25px;
+    border-radius: 5px;
+    border: 0px;
+}
+
 
 
